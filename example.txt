@@ -13,6 +13,7 @@ BaseClass
 
 %% Class with inheritance
 SuperClass : BaseClass
+	%% Automatic doxygen comments for methods
 	+ methodC()
 
 %% Class with parameters in methods
