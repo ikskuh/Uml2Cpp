@@ -1,0 +1,21 @@
+%% This is a comment
+%% An example class
+ExampleClass
+	+ publicMethodA()
+	+ publicMethodB()
+	# protectedMethod()
+	- privateMethod()
+
+%% Another example class
+BaseClass
+	+ methodA() : int
+	+ methodB() : ReturnType
+
+%% Class with inheritance
+SuperClass : BaseClass
+	+ methodC()
+
+%% Class with parameters in methods
+ParamsClass
+	+ method(id : int)
+	+ calc(a : float, b : float) : float
